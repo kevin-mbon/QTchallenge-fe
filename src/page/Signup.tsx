@@ -7,12 +7,12 @@ const Signup = () => {
       
         <div className="w-full flex flex-col gap-2 group">
           <label htmlFor="email" className="text-sm font-medium text-slate-700">
-            Email
+            Username
           </label>
           <input
-            type="email"
-            id="email"
-            placeholder="mbonigabakevin@gmail.com"
+            type="name"
+            id="name"
+            placeholder="kebo"
             className="w-full px-4 p-2 bg-slate-200 outline-none text-sm rounded-md text-slate-700 font-medium border-2 border-slate-300 duration-150 group-hover:border-slate-500 active:border-blue-500"
           />
         </div>
